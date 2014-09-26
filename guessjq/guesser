@@ -1,0 +1,117 @@
+body{
+    background-color: #505050;
+}
+div{
+	box-sizing: border-box;
+}
+#main{
+    width: 80%;
+    background-color: #B0B0B0;
+    position: relative;
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 600px;
+    padding: 15px;
+}
+section{
+    height: 50%;
+}
+#picture, #playerav{
+    width: 300px;
+    height: 250px;
+    display: inline-block;
+}
+#playerav{
+    float:right;
+    margin-bottom: 10px;
+}
+#lower div img{
+    max-width: 100%;
+    max-height: 100%
+
+}
+#submit{
+    /* height: 40px; */
+    font-size: 20px;
+    /* padding: 20px; */
+    width: 70px;
+}
+
+#bubble, #bubbleTwo{
+    position: absolute;
+    display: inline;
+    padding: 30px;
+    text-align: center;
+
+}
+#bubble{
+    top: 20px;
+    left: 20px;
+    font-family: Impact;
+}
+#bubbleTwo{	qs	
+    top: 110px;
+    right: 20px;
+    font-family: Impact;
+}
+
+
+#bubble p, #bubbleTwo p{
+    font-size: 30px;
+    max-width: 80%;
+    margin-bottom: 10px;
+}
+#field{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+}
+form{
+	margin-left: 390px;
+}
+
+
+
+
+.bubble 
+{
+position: relative;
+width: 570px;
+height: 120px;
+padding: 20px;
+background: #FFFFFF;
+-webkit-border-radius: 67px;
+-moz-border-radius: 67px;
+border-radius: 67px;
+border: #7F7F7F solid 4px;
+}
+
+.bubble:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 32px 20px 0;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -32px;
+left: 79px;
+}
+
+.bubble:before 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 35px 23px 0;
+border-color: #7F7F7F transparent;
+display: block;
+width: 0;
+z-index: 0;
+bottom: -39px;
+left: 76px;
+}
+
+
