@@ -12,12 +12,6 @@ $.fn.extend({
 })
 
 
-function bubbleTimeout(elem, time){
-        setTimeout(function(){
-            elem.hide('slow')
-        }, time)
-}
-
 
 
 
@@ -33,6 +27,14 @@ var answer,
     $userInput = $('#field'),
     $computerAv = $('#picture img'),
     $playerAv = $('#playerav img');
+
+
+function bubbleTimeout(elem, time){
+        setTimeout(function(){
+            elem.hide('slow')
+        }, time)
+}
+
 
 
 function setPlayerAv(text){
